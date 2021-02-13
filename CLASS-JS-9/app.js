@@ -9,22 +9,22 @@ console.log(text);
 
 // 2nd METHOD
 
-// var index = text.indexOf("World War II");
-// if(index !== -1){
-//      text = text.slice(0, index) + "Second World War" + text.slice(index + 12);    
-// }
+var index = text.indexOf("World War II");
+if(index !== -1){
+     text = text.slice(0, index) + "Second World War" + text.slice(index + 12);    
+}
 
-// console.log(text)
+console.log(text)
 
 // 1st METHOD
 
-// for(var i = 0; i < text.length; i++){
-//     if(text.slice(i, i + 12) === "World War II"){
-//         text = text.slice(0, i) + "Second World War" + text.slice(i + 12);    
-//     }
-// }
+for(var i = 0; i < text.length; i++){
+    if(text.slice(i, i + 12) === "World War II"){
+        text = text.slice(0, i) + "Second World War" + text.slice(i + 12);    
+    }
+}
 
-// console.log("Sliced text >>",text);
+console.log("Sliced text >>",text);
 
 
 
