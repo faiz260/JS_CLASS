@@ -25,7 +25,7 @@ function calcTot(merchTot) {
   return orderTot ;
 }
 
-// console.log(calcTot(50));
+console.log(calcTot(80));
 
 var total = calcTot(50);
 total = total + 10;
