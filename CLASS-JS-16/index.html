@@ -2,7 +2,37 @@
 <html>
   <head></head>
   <body>
-  
+    <!-- <img
+      src="light-bulb-off.png"
+      onmouseover="src='light-bulb-on.png'"
+      onmouseout="src='light-bulb-off.png'"
+    /> -->
+    <h1
+      style="color: brown"
+      onmouseover="this.style.color='green'"
+      onmouseout="this.style.color='brown'"
+    >
+      Events
+    </h1>
+
+    <form onsubmit="checkEmail('email')">
+      <input
+        type="text"
+        onFocus="this.style.backgroundColor='lightblue'"
+        onBlur="setEmail('email')"
+        placeholder="Enter your email"
+        id="email"
+      />
+      <input type="submit" />
+    </form>
+
+    <p id="slowLoris">
+      Slow lorises are a group of several species of strepsirrhine primates
+      which make up the genus Nycticebus.
+      <a href="javascript:void(0);" onClick="expandLoris();"
+        ><em>Click for more.</em></a
+      >
+    </p>
 
     <script src="app.js"></script>
   </body>
