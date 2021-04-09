@@ -1,23 +1,18 @@
-// var object1 = {
-//     age: [20, 21],
-//     name: "faiz",
-//     fatherName: "shahnawaz khan",
-//     contact: 534534
-// };
+var object1 = {
+    age: [20, 21],
+    name: "faiz",
+    fatherName: "shahnawaz khan",
+    contact: 534534
+};
 
-// // delete object1.age;
+// delete object1.age;
 
-// console.log(object1);
+console.log(object1);
 
-// propertyExists = "faiz" in object1;
-
-// console.log(propertyExists);
-
-
-
-
-
-
+propertyExists = "faiz" in object1;
+ 
+console.log(propertyExists);
+    
 var plan1 = {
   name: "basic",
   price: 4,
