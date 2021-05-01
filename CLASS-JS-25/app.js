@@ -13,7 +13,7 @@ console.log(whereWeAt);
 // var monkeyWindow = window.open("index.html", "win1", "width=420,height=380");
 
 function checkForPopBlocker() {
-  var testPop = window.open("", "", "width=100,height=100");
+  var testPop = window.open("index.html", "", "width=100,height=100");
   if (testPop === null || typeof(testPop === "undefined")) {
     alert("Please disable your popup blocker.");
   }
